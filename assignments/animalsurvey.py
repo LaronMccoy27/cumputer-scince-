@@ -1,0 +1,8 @@
+animal = ("what is your favorite animal?\n")
+why = input("why is the " + animal + " your favorti aniaml?\n>")
+color = input("what is the color of a " + favortie_animal + "?\n")
+sound = input("what sound does a " + animal "?make?\n)
+habitat = input("where does it live?\N>")
+fun_fact =input("what is a fun fact about loins?\n>")
+opinion = input("why do you like them?\n>")
+print("your favortie animal is a ")
