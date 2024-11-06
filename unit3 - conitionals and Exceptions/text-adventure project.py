@@ -42,7 +42,8 @@ def follow_sound():
      elif choice =="2":
           look_weapon()
           
-     else:print("you die")
+     elif choice == "3":
+          you_die()
 
 
 start_adventure()
@@ -101,13 +102,19 @@ def find_weapon():
      if win_chance <= .50: 
           print("the gaint finger hit the ground it make the gaint even more mad")
           print("the gaint rush at you and you have to options")
-          print("1. end him off and gain a point")    
+          print("1. end him off and gain a point")
+          choice = input(">")
+          if choice == "1": 
+               end_him()
+
+          elif choice =="2":
+               you_die()
           
           
           
           
 def run_away():
-     print("2. you run away and try to find more drinks to gain more powers")
+     print(" you run away and try to find more drinks to gain more powers")
 
 
 
@@ -130,4 +137,12 @@ def enter_store2():
      print("you see the same master that you killed in the other store")
      print("1. do you hide")
      print("2. do you keep eating")
+     choice = input (">")
+     if choice =="1":
+          you_hide()
+
+
+     elif choice == "2":
+          keep_eating()
+
 
